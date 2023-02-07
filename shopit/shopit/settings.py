@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-zn&v1h9by84ze-b--lijkd**s7=_f8bc2odno++j2=xn_*()(+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -120,7 +120,7 @@ STATIC_URL = 'static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 LOGIN_REDIRECT_URL = '/profile/'
-EMAIL_BACKEND = 'django.core-mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
