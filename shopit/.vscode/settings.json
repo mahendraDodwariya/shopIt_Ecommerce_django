@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/e1747e5f-e558-492b-9848-6d11b4762326/AppServices/subscriptions/e1747e5f-e558-492b-9848-6d11b4762326/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/shopthemart",
+  "appService.deploySubpath": "."
+}
