@@ -23,10 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-zn&v1h9by84ze-b--lijkd**s7=_f8bc2odno++j2=xn_*()(+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 # DEBUG = 'RENDER' not in os.environ
-if not DEBUG:
-    CSRF_TRUSTED_ORIGINS = ['https://shopit.azurewebsites.net']
+# if not DEBUG:
+#     CSRF_TRUSTED_ORIGINS = ['https://shopit.azurewebsites.net']
 ALLOWED_HOSTS = ['*']
 
 
