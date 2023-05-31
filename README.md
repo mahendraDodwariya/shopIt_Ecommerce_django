@@ -1,17 +1,19 @@
 # shopIt_Ecommerce_django
 This is an E commerce website built in django python
 
-Website have full authentication system. 
+Developed an ECommerce website using Python Django, JavaScript, HTML, and CSS, incorporating essential features for product browsing, filtering, and online transactions.
 
-Customer can view details of product, add it to cart , increase or decrease the quantity even can remove from the cart.
+Implemented a secure user authentication system, ensuring that only registered users can add products to the cart or complete purchases.
+Designed intuitive filtering options, allowing users to easily refine their product search based on various criteria, such as type, price range, or other attributes.
 
-Customer can directly place the order without adding to cart.
+Integrated an efficient shopping cart functionality, enabling users to add desired products, view the real-time cost, and proceed with purchasing single items or the entire cart.
 
-Customer can add multiple address and select any one of them for delivery.
+Incorporated a real-time cost visualization feature, providing users with an accurate and dynamic display of the total cost as they add or remove items from their cart.
 
-Customer can filter out the desired product by searching it, can also explore specific type product by category of electronics, cloths etc.
+Integrated a reliable online payment gateway, facilitating secure and seamless transactions for users, ensuring a smooth and trustworthy shopping experience.
 
-For placing and adding to cart login is required but for viewing details of products no authentication require.
+Implemented a password recovery system, allowing users to reset their passwords in case they forget them, enhancing account accessibility and security.
+
 
 ## Quik Demo:
 
